@@ -21,7 +21,7 @@
 #introduction {
   position: relative;
   padding-top: 10px;
-  width: 1080px;
+  width: 100%;
 }
 
 #introduction > p {
@@ -37,7 +37,7 @@ h3::after {
 
 #our-company {
   position: relative;
-  min-width: 1020px;
+  min-width: 1010px;
   padding: 20px;
   height: 530px;
 }
@@ -79,6 +79,7 @@ h3::after {
   top: 0px;
   width: 100%;
   z-index: 50;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .detail-button {
@@ -92,7 +93,7 @@ h3::after {
 
 #our-attitude {
   position: relative;
-  min-width: 1020px;
+  min-width: 1010px;
   padding: 20px;
   height: 530px;
 }
